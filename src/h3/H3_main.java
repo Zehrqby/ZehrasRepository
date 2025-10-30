@@ -3,9 +3,9 @@ package h3;
 public class H3_main {
 	public static void main(String[] args) {
 
-		int i = 10;
-        int j = 102;
-        int k = 150;
+		int i = 200;
+        int j = 15;
+        int k = -10;
         
         boolean ausdruck1 = i > j;
         boolean ausdruck2 = i > 200;
@@ -13,13 +13,17 @@ public class H3_main {
 
         if (ausdruck1 && !ausdruck2 && !ausdruck3) {
             k = 1;
-        } else if (ausdruck1 && ausdruck2 && !ausdruck3) {
+        }
+        if (ausdruck1 && ausdruck2 && !ausdruck3) {
             k = 2;
-        } else if (ausdruck1 && ausdruck2 && ausdruck3) {
+        }
+        if (ausdruck1 && ausdruck2 && ausdruck3) {
             k = 3;
-        } else if (!ausdruck1 && !ausdruck2 && !ausdruck3) {
+        }
+        if (!ausdruck1 && !ausdruck2 && !ausdruck3) {
             k = 4;
-        } else {
+        }
+        if (k == -10) {
             k = -10;
         }
         
@@ -28,7 +32,7 @@ public class H3_main {
         System.out.println("i > j: " + ausdruck1);
         System.out.println("i > 200: " + ausdruck2);
         System.out.println("j > 100: " + ausdruck3);
-        System.out.println("Endwert von k: " + k);
+        System.out.println("k = " + k);
 	}
 
 }

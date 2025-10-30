@@ -5,7 +5,7 @@ public class H1_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		int z = 12;
+		int z = 15;
 		
 		if (z > 10) {
 			z = z - 10;
@@ -13,7 +13,7 @@ public class H1_main {
 			
 		}
 		
-		System.out.println(+z);
+		System.out.println(z);
 	
 	
 	
